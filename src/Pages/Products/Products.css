@@ -1,0 +1,52 @@
+.container {
+    width: 80%;
+}
+
+.product-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.filter-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.btn {
+    background-color: #037afe;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+
+.btn:hover {
+    background-color: #003a7b;
+}
+
+table {
+    width: 100%;
+    border: 1px solid rgb(180, 180, 180);
+    min-height: 80vh;
+}
+
+table .headings {
+    background-color: #f0f0f0;
+    height: 2rem;
+}
+
+.product-img {
+    cursor: pointer;
+    max-width: 170px;
+}
+
+.table-data {
+    border: 1px solid rgb(180, 180, 180);
+}

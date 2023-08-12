@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: #202124;
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: white;
+
+}

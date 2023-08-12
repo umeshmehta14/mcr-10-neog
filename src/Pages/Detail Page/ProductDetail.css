@@ -1,0 +1,10 @@
+.detail-page {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.detail-page img {
+    width: 300px;
+}
